@@ -1,0 +1,34 @@
+{
+  "name": "opencode-litellm-session",
+  "version": "1.0.0",
+  "description": "OpenCode plugin that injects a LiteLLM session header into every LLM request so the LiteLLM proxy groups one opencode session into a single conversation.",
+  "type": "module",
+  "main": "index.ts",
+  "license": "MIT",
+  "author": "cleardevice <cleardevice@gmail.com>",
+  "keywords": [
+    "opencode",
+    "litellm",
+    "session",
+    "proxy",
+    "observability",
+    "plugin",
+    "llm",
+    "ai"
+  ],
+  "homepage": "https://github.com/cleardevice/opencode-litellm-session#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cleardevice/opencode-litellm-session.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cleardevice/opencode-litellm-session/issues"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@opencode-ai/plugin": "^1.17.0",
+    "typescript": "^5.9.3"
+  }
+}

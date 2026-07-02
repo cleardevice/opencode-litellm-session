@@ -1,0 +1,12 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Build output (not currently used — opencode loads index.ts directly via Bun)
+dist/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
